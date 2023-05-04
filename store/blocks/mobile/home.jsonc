@@ -7,7 +7,8 @@
     "children": [
       // "flex-layout.row#permission-description",
       "check-permission#representative-area",
-      "flex-layout.row#imageList--mobile",
+      "flex-layout.row#sales-channel-banner",
+      // "flex-layout.row#imageList--mobile",
       "check-permission#lastOrders",
       "flex-layout.row#shopByCategory",
       "__fold__",

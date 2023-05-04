@@ -10,7 +10,8 @@
     "children": [
       // "flex-layout.row#permission-description",
       "check-permission#representative-area",
-      "flex-layout.row#imageList",
+      "flex-layout.row#sales-channel-banner",
+      // "flex-layout.row#imageList",
       "check-permission#lastOrders",
       "flex-layout.row#shopByCategory",
       "__fold__",
@@ -30,53 +31,94 @@
     ]
   },
 
-  "flex-layout.row#permission-description": {
-    "props": {
-      "blockClass": "permission-description",
-      "colSizing": "auto"
-    },
-    "children": [
-      "check-permission#store-admin",
-      "check-permission#sales-admin",
-      "check-permission#sales-manager",
-      "check-permission#sales-representative",
-      "check-permission#customer-admin",
-      "check-permission#customer-approver",
-      "check-permission#customer-buyer"
-    ]
-  },
-
-  "flex-layout.row#imageList": {
+  "flex-layout.row#sales-channel-banner": {
     "props": {
       "blockClass": "full-banner",
       "fullWidth": true
+      // "marginBottom": 8
     },
-    "children": ["list-context.image-list#homeBanners"]
+    "children": ["flex-layout.col#sales-channel-banner"]
   },
-  "flex-layout.row#imageList--mobile": {
-    "props": {
-      "blockClass": ["full-banner", "full-banner--mobile"],
-      "fullWidth": true
-    },
-    "children": ["list-context.image-list#homeBanners"]
+
+  "flex-layout.col#sales-channel-banner": {
+    "children": ["sales-channel-banner"]
   },
-  "list-context.image-list#homeBanners": {
-    "children": ["slider-layout#demo-images"],
+
+  "sales-channel-banner": {
+    "title": "Banners por política comercial",
+    "children": ["slider-layout#sales-channel-banner"],
     "props": {
       "height": 480,
       "images": [
         {
-          "width": "1440px",
           "image": "assets/banners/banner-top-home-fashion-b2b.png",
           "mobileImage": "assets/banners/banner-top-home-fashion-b2b.png",
           "description": "Moda Verão - Nova Coleção",
           "link": {
-            "url": "/verao"
+            "url": "/1?map=productClusterIds"
           }
-        }
+        }/* ,
+        {
+          "image": "https://bravtexgrocerystore.vtexassets.com/arquivos/Azeite-Desktop1.png",
+          "mobileImage": "https://bravtexgrocerystore.vtexassets.com/arquivos/Azeite-Mobile1.png",
+          "salesChannels": "1"
+        },
+        {
+          "image": "https://bravtexgrocerystore.vtexassets.com/arquivos/Margarina-Desktop1.png",
+          "mobileImage": "https://bravtexgrocerystore.vtexassets.com/arquivos/Margarina-Mobile1.png",
+          "salesChannels": "2,3"
+        } */
       ]
     }
   },
+
+  // "flex-layout.row#permission-description": {
+  //   "props": {
+  //     "blockClass": "permission-description",
+  //     "colSizing": "auto"
+  //   },
+  //   "children": [
+  //     "check-permission#store-admin",
+  //     "check-permission#sales-admin",
+  //     "check-permission#sales-manager",
+  //     "check-permission#sales-representative",
+  //     "check-permission#customer-admin",
+  //     "check-permission#customer-approver",
+  //     "check-permission#customer-buyer"
+  //   ]
+  // },
+
+  // "flex-layout.row#imageList": {
+  //   "props": {
+  //     "blockClass": "full-banner",
+  //     "fullWidth": true
+  //   },
+  //   "children": ["list-context.image-list#homeBanners"]
+  // },
+  // "flex-layout.row#imageList--mobile": {
+  //   "props": {
+  //     "blockClass": ["full-banner", "full-banner--mobile"],
+  //     "fullWidth": true
+  //   },
+  //   "children": ["list-context.image-list#homeBanners"]
+  // },
+  // "list-context.image-list#homeBanners": {
+  //   "children": ["slider-layout#demo-images"],
+  //   "props": {
+  //     "height": 480,
+  //     "images": [
+  //       {
+  //         "width": "1440px",
+  //         "image": "assets/banners/banner-top-home-fashion-b2b.png",
+  //         "mobileImage": "assets/banners/banner-top-home-fashion-b2b.png",
+  //         "description": "Moda Verão - Nova Coleção",
+  //         "link": {
+  //           "url": "/verao"
+  //         }
+  //       }
+  //     ]
+  //   }
+  // },
   "slider-layout#demo-images": {
     "props": {
       "blockClass": ["homeSlider", "dotsCustom"],
@@ -87,6 +129,19 @@
       },
       "infinite": true,
       "showNavigationArrows": "desktopOnly"
+    }
+  },
+  "slider-layout#sales-channel-banner": {
+    "title": "Slider dos banners por política comercial",
+    "props": {
+      "blockClass": ["homeSlider", "dotsCustom"],
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "always"
     }
   },
   "flex-layout.row#shopByCategory": {
@@ -118,14 +173,7 @@
       "preventVerticalStretch": true,
       "fullWidth": true
     },
-    "children": [
-      "link#shoBy1",
-      "link#shoBy2",
-      "link#shoBy3",
-      "link#shoBy4",
-      "link#shoBy5",
-      "link#shoBy6"
-    ]
+    "children": ["link#shoBy1", "link#shoBy2", "link#shoBy3", "link#shoBy4", "link#shoBy5", "link#shoBy6"]
   },
   /* Seus Últimos Pedidos */
   "flex-layout.row#last-orders": {
@@ -424,33 +472,33 @@
   //   }
   // },
 
-  "flex-layout.row#shelf1": {
-    "children": ["list-context.product-list#productSlider"],
-    "props": {
-      "blockClass": "shelfComplete"
-    }
-  },
-  "list-context.product-list#productSlider": {
-    "blocks": ["product-summary.shelf#list"],
-    "children": ["slider-layout#products"],
-    "props": {
-      "orderBy": "OrderByTopSaleDESC"
-    }
-  },
-  "slider-layout#products": {
-    "props": {
-      "itemsPerPage": {
-        "desktop": 6,
-        "tablet": 3,
-        "phone": 1
-      },
-      "infinite": false,
-      "fullWidth": true,
-      "showPaginationDots": "desktopOnly",
-      "showNavigationArrows": "desktopOnly",
-      "blockClass": "shelfStyle1"
-    }
-  },
+  // "flex-layout.row#shelf1": {
+  //   "children": ["list-context.product-list#productSlider"],
+  //   "props": {
+  //     "blockClass": "shelfComplete"
+  //   }
+  // },
+  // "list-context.product-list#productSlider": {
+  //   "blocks": ["product-summary.shelf#list"],
+  //   "children": ["slider-layout#products"],
+  //   "props": {
+  //     "orderBy": "OrderByTopSaleDESC"
+  //   }
+  // },
+  // "slider-layout#products": {
+  //   "props": {
+  //     "itemsPerPage": {
+  //       "desktop": 6,
+  //       "tablet": 3,
+  //       "phone": 1
+  //     },
+  //     "infinite": false,
+  //     "fullWidth": true,
+  //     "showPaginationDots": "desktopOnly",
+  //     "showNavigationArrows": "desktopOnly",
+  //     "blockClass": "shelfStyle1"
+  //   }
+  // },
   "slider-layout#productsMobile": {
     "props": {
       "itemsPerPage": {
@@ -469,11 +517,7 @@
       "blockClass": "imageBanners",
       "preventHorizontalStretch": true
     },
-    "children": [
-      "flex-layout.col#banner1",
-      "flex-layout.col#banner2",
-      "flex-layout.col#banner3"
-    ]
+    "children": ["flex-layout.col#banner1", "flex-layout.col#banner2", "flex-layout.col#banner3"]
   },
   "flex-layout.col#banner1": {
     "props": {

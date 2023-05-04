@@ -2,31 +2,6 @@
   padding-bottom: 26px;
 }
 
-.sliderArrows--homeSlider {
-  background-color: rgba(0, 51, 100, 0.32) !important;
-  background-repeat: no-repeat !important;
-  border-radius: 50%;
-  height: 48px;
-  padding: 0;
-  width: 48px;
-}
-
-.caretIcon--homeSlider {
-  display: none;
-}
-
-.sliderLeftArrow--homeSlider {
-  background-image: url("assets/icons/chevronLeftWhite.svg") !important;
-  background-position: 17px center !important;
-  left: 16px;
-}
-
-.sliderRightArrow--homeSlider {
-  background-image: url("assets/icons/chevronRightWhite.svg") !important;
-  background-position: 20px center !important;
-  right: 16px;
-}
-
 .paginationDotsContainer {
   bottom: 10px;
 }
