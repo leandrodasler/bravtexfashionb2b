@@ -49,6 +49,8 @@
     "children": ["slider-layout#sales-channel-banner"],
     "props": {
       "height": 480,
+      "heightMobile": 200,
+      "autoplay": 8000,
       "images": [
         {
           "image": "assets/banners/banner-top-home-fashion-b2b.png",
@@ -119,18 +121,6 @@
   //     ]
   //   }
   // },
-  "slider-layout#demo-images": {
-    "props": {
-      "blockClass": ["homeSlider", "dotsCustom"],
-      "itemsPerPage": {
-        "desktop": 1,
-        "tablet": 1,
-        "phone": 1
-      },
-      "infinite": true,
-      "showNavigationArrows": "desktopOnly"
-    }
-  },
   "slider-layout#sales-channel-banner": {
     "title": "Slider dos banners por política comercial",
     "props": {
@@ -142,6 +132,18 @@
       },
       "infinite": true,
       "showNavigationArrows": "always"
+    }
+  },
+  "slider-layout#demo-images": {
+    "props": {
+      "blockClass": ["homeSlider", "dotsCustom"],
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly"
     }
   },
   "flex-layout.row#shopByCategory": {
