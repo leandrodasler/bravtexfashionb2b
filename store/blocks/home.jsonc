@@ -508,7 +508,7 @@
         "tablet": 3,
         "phone": 1
       },
-      "infinite": false,
+      "infinite": true,
       "fullWidth": true,
       "showNavigationArrows": "desktopOnly",
       "blockClass": "shelfStyle1"
