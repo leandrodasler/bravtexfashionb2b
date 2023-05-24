@@ -11,6 +11,11 @@
   text-decoration: none;
 }
 
+.container--loading-content-overlay {
+  width: 160px;
+  justify-content: start;
+}
+
 .headingLevel2--menuTitle {
   font-size: 20px;
   line-height: 24px;

@@ -5,6 +5,11 @@
   margin-right: 15px;
 }
 
+.animation,
+.sidebarScrim {
+  overflow: hidden;
+}
+
 @media (min-width: 768px) {
   .animation {
     width: 50%;

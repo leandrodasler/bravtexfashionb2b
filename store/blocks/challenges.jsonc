@@ -32,12 +32,22 @@
         "customer-admin",
         "customer-approver",
         "customer-buyer"
-      ]
+      ],
+      "LoadingContent": "rich-text#loading-content"
     },
     "blocks": [
       "allowed-content#reseller-overlay-trigger",
       "disallowed-content#reseller"
     ]
+  },
+  "rich-text#loading-content": {
+    "props": {
+      "blockClass": "loading-content-overlay",
+      "text": "Carregando...",
+      "font": "t-small",
+      "textColor": "c-on-base--inverted",
+      "textPosition": "CENTER"
+    }
   },
   "check-permission#reseller-overlay-trigger-mobile": {
     "props": {
@@ -207,7 +217,8 @@
         "customer-admin",
         "customer-approver",
         "customer-buyer"
-      ]
+      ],
+      "LoadingContent": "slider-layout#menu-loading"
     },
     "blocks": [
       "allowed-content#menuLinksLogged",
