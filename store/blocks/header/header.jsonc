@@ -4,10 +4,12 @@
   },
 
   "header.full": {
+    "title": "Header",
     "blocks": ["header-layout.desktop", "header-layout.mobile"]
   },
 
   "header-layout.desktop": {
+    "title": "Header - Desktop",
     "children": ["flex-layout.row#demo-store-warning", "sticky-layout#desktop"]
   },
 
@@ -213,6 +215,7 @@
   },
 
   "header-layout.mobile": {
+    "title": "Header - Mobile and Tablet",
     "children": ["flex-layout.row#demo-store-warning", "sticky-layout#mobile"]
   },
 

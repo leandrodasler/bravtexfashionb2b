@@ -1,5 +1,6 @@
 {
   "responsive-layout.mobile": {
+    "title": "Home - Mobile and Tablet",
     "children": ["b2b-context#mobile"]
   },
 

@@ -3,6 +3,7 @@
     "blocks": ["responsive-layout.desktop", "responsive-layout.mobile"]
   },
   "responsive-layout.desktop": {
+    "title": "Home - Desktop",
     "children": ["b2b-context#desktop"]
   },
 
