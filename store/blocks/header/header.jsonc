@@ -130,6 +130,11 @@
       "blockClass": "b2b-user-widget"
     }
   },
+  "b2b-user-widget": {
+    "props": {
+      "showLoadingIndicator": true
+    }
+  },
   // "link#b2b-user-widget-link-1": {
   //   "props": {
   //     "label": "Gerenciar organização",
@@ -230,6 +235,24 @@
 
   "flex-layout.row#mobileHeader": {
     "children": ["flex-layout.col#mobileHeader"]
+  },
+
+  "slider-layout#menu-loading": {
+    "props": {
+      "itemsPerPage": {
+        "phone": 1,
+        "tablet": 1
+      },
+      "centerMode": "center",
+      "infinite": false,
+      "showNavigationArrows": "never",
+      "showPaginationDots": "never",
+      "blockClass": "stripeSlider",
+      "fullWidth": true
+    },
+    "children": [
+      "rich-text#loading-content"
+    ]
   },
 
   "slider-layout#menuLinksLogged": {

@@ -101,6 +101,11 @@
   border-top: 1px solid var(--lines-light);
 }
 
+.flexRow--skeleton-overlay-trigger {
+  display: flex;
+  align-items: center;
+}
+
 @media (max-width: 64rem) {
   .flexColChild--main-header-mobile:first-child {
     margin-bottom: 12px;

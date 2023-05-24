@@ -49,7 +49,7 @@
     "children": ["slider-layout#sales-channel-banner"],
     "props": {
       "height": 480,
-      "heightMobile": 200,
+      "heightMobile": 125,
       "autoplay": 8000,
       "images": [
         {
