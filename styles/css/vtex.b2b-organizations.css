@@ -8,6 +8,9 @@
 .userWidgetRow {
   flex-direction: column;
 }
+.userWidgetItem {
+  margin: 0;
+}
 .userWidgetLoading {
   padding: 2.5rem 0;
 }
