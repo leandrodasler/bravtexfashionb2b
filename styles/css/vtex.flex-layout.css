@@ -13,7 +13,7 @@
   align-items: center;
 }
 
-@media (min-width: 64rem) {
+@media (min-width: 64.1rem) {
   .flexRowContent--header
     :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child {
     padding-right: 0;
@@ -272,7 +272,7 @@
 
 /* END - SearchPage */
 
-@media (min-width: 64rem) {
+@media (min-width: 64.1rem) {
   .flexRowContent--paymentImages {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -494,7 +494,7 @@
   align-items: baseline;
 }
 
-@media (min-width: 64rem) {
+@media (min-width: 64.1rem) {
   .flexCol--box {
     background-color: #fff;
     border: 1px solid var(--lines-light);
@@ -578,7 +578,7 @@
   margin: 16px 0;
 }
 
-@media (min-width: 64rem) {
+@media (min-width: 64.1rem) {
   .flexRowContent--divider,
   .flexCol--divider {
     margin: 32px 0;

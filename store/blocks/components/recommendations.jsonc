@@ -1,5 +1,6 @@
 {
   "flex-layout.row#recommendations": {
+    "title": "Prateleira 3",
     "children": [
       "flex-layout.col#recommendations"
     ]

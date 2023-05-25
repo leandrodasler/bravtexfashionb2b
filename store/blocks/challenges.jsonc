@@ -234,6 +234,7 @@
 
   /* Seção na home de área do representante da organização */
   "check-permission#representative-area": {
+    "title": "Área do Representante",
     "props": {
       "roles": [
         // "store-admin",
@@ -253,6 +254,7 @@
 
   /* Seção na home de últimos pedidos da organização */
   "check-permission#lastOrders": {
+    "title": "Últimos Pedidos",
     "props": {
       "roles": [
         "store-admin",

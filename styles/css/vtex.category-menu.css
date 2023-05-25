@@ -16,7 +16,7 @@
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 64.1rem) {
   .animation {
     width: 25%;
   }

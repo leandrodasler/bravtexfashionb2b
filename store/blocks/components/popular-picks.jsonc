@@ -1,5 +1,6 @@
 {
   "flex-layout.row#popular": {
+    "title": "Prateleira 2",
     "children": [
       "flex-layout.col#popular"
     ]

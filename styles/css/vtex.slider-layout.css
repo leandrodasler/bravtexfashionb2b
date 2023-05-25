@@ -156,7 +156,7 @@
 
 /* END - Trending Shelf */
 
-@media (min-width: 64rem) {
+@media (min-width: calc(90rem + 200px)) {
   .sliderLeftArrow--homeSlider {
     left: 5vw;
   }

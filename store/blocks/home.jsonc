@@ -1,11 +1,12 @@
 {
   "store.home": {
-    "blocks": ["responsive-layout.desktop", "responsive-layout.mobile"]
+    "title": "Home",
+    "blocks": [/* "responsive-layout.desktop", "responsive-layout.mobile" */"b2b-context#desktop"]
   },
-  "responsive-layout.desktop": {
-    "title": "Home - Desktop",
-    "children": ["b2b-context#desktop"]
-  },
+  // "responsive-layout.desktop": {
+  //   "title": "Home - Desktop",
+  //   "children": ["b2b-context#desktop"]
+  // },
 
   "b2b-context#desktop": {
     "children": [
@@ -33,6 +34,7 @@
   },
 
   "flex-layout.row#sales-channel-banner": {
+    "title": "Banners por política comercial",
     "props": {
       "blockClass": "full-banner",
       "fullWidth": true
@@ -46,7 +48,6 @@
   },
 
   "sales-channel-banner": {
-    "title": "Banners por política comercial",
     "children": ["slider-layout#sales-channel-banner"],
     "props": {
       "height": 480,
@@ -148,6 +149,7 @@
     }
   },
   "flex-layout.row#shopByCategory": {
+    "title": "Compre por Categorias",
     "props": {
       "blockClass": "shopByCategorySection"
     },
@@ -242,6 +244,7 @@
   },
 
   "b2b-last-orders#desktop": {
+    "title": "B2B Last Orders - Desktop",
     "props": {
       "limit": 5,
       "orderDetailsPlacement": "right"
@@ -249,6 +252,7 @@
   },
 
   "b2b-last-orders#mobile": {
+    "title": "B2B Last Orders - Mobile",
     "props": {
       "limit": 3,
       "orderDetailsPlacement": "top"
@@ -516,6 +520,7 @@
     }
   },
   "flex-layout.row#imageBanners": {
+    "title": "Linha com 3 banners",
     "props": {
       "blockClass": "imageBanners",
       "preventHorizontalStretch": true
@@ -607,6 +612,7 @@
   //   }
   // },
   "flex-layout.row#bannerReleases": {
+    "title": "Banner antes das prateleiras",
     "props": {
       "blockClass": "full-banner",
       "fullWidth": true
@@ -631,6 +637,7 @@
     }
   },
   "flex-layout.row#bannerCoupon": {
+    "title": "Banner após prateleiras",
     "props": {
       "blockClass": "full-banner",
       "fullWidth": true

@@ -25,7 +25,7 @@
   width: 100%;
 }
 
-@media (min-width: 64em) {
+@media (min-width: 64.1rem) {
   .categoryBlockFlexItem,
   .categoryBlockFlexItem:first-child {
     width: 25%;

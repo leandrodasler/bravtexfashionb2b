@@ -49,7 +49,7 @@
 
 /* Product Page */
 
-@media (min-width: 64rem) {
+@media (min-width: 64.1rem) {
   .reviewCommentsContainer {
     width: 25vw;
   }
