@@ -30,7 +30,8 @@
     },
     "blocks": [
       "allowed-content#product-price-list",
-      "disallowed-content#product-price"
+      "disallowed-content#product-price",
+      "loading-content#product-price"
     ]
   },
   "allowed-content#product-summary-price": {
