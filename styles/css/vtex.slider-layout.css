@@ -71,9 +71,6 @@
   background-color: var(--lines-dark) !important;
 }
 
-.sliderArrows--shelfTrending {
-  top: 30%;
-}
 .sliderArrows--stripeSlider {
   color: var(--serious-black);
   border-color: var(--serious-black);
@@ -155,12 +152,21 @@
 } */
 
 /* END - Trending Shelf */
+@media (min-width: calc(92.2rem)) {
+  .sliderLeftArrow--shelfTrending {
+    left: -2.2rem;
+  }
+
+  .sliderRightArrow--shelfTrending {
+    right: -2.2rem;
+  }
+}
 
 @media (min-width: calc(90rem + 200px)) {
   .sliderLeftArrow--homeSlider {
     left: 5vw;
   }
-  
+
   .sliderRightArrow--homeSlider {
     right: 5vw;
   }
