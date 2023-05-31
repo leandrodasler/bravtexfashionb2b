@@ -38,12 +38,12 @@
         "customer-admin",
         "customer-approver",
         "customer-buyer"
-      ]
+      ],
+      "LoadingContent": "skeleton#price"
     },
     "blocks": [
       "allowed-content#product-price",
-      "disallowed-content#product-price",
-      "loading-content#product-price"
+      "disallowed-content#product-price"
     ]
   },
   "allowed-content#product-price": {
@@ -97,9 +97,6 @@
       "blockClass": ["product-price-message"],
       "text": "Faça login ou cadastre-se para visualizar preços"
     }
-  },
-  "loading-content#product-price": {
-    "children": ["skeleton#price"]
   },
   "skeleton#price": {
     "props": {
