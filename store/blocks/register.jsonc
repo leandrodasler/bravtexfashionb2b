@@ -17,13 +17,13 @@
   },
   "rich-text#registration__title": {
     "props": {
-      "text": "# Become a partner",
+      "text": "# Seja um parceiro",
       "textPosition": "CENTER"
     }
   },
   "rich-text#registration__text": {
     "props": {
-      "text": "We offer all the support for our customers to provide better services and prosper in their business. We serve more than 20,000 partners across all over the world. Commercial consultants support their clients in the search for the best solutions to meet all types of demands."
+      "text": "Oferecemos todo o suporte para que nossos clientes prestem melhores serviços e prosperem em seus negócios. Atendemos mais de 20.000 parceiros em todo o mundo. Consultores comerciais apoiam seus clientes na busca das melhores soluções para atender todos os tipos de demanda."
     }
   },
 
@@ -65,7 +65,7 @@
   },
   "rich-text#form__section__title--contact": {
     "props": {
-      "text": "**Your Contact**"
+      "text": "**Seu Contato**"
     }
   },
   "flex-layout.row#form__section__fields--contact": {
@@ -119,7 +119,7 @@
   },
   "rich-text#form__section__title--company": {
     "props": {
-      "text": "**Your company**",
+      "text": "**Sua companhia**",
       "blockClass": "form-section-title"
     }
   },
@@ -145,7 +145,7 @@
   "form-input.text#corporateName": {
     "props": {
       "pointer": "#/properties/corporateName",
-      "label": "Company name: "
+      "label": "Nome da organização: "
     }
   },
   "form-input.text#stateRegistration": {
@@ -198,7 +198,7 @@
   },
   "rich-text#form__section__title--address": {
     "props": {
-      "text": "**Company Address**",
+      "text": "**Endereço da companhia**",
       "blockClass": "form-section-title"
     }
   },
@@ -290,7 +290,7 @@
 
   "rich-text#successSubmit": {
     "props": {
-      "text": "Data sent successfully. Within 48 hours we carry out the evaluation of your registration. We will send a reply to the email provided above.",
+      "text": "Dados enviados com sucesso. Em até 48 horas realizamos a avaliação do seu cadastro. Enviaremos uma resposta para o e-mail fornecido acima.",
       "textAlignment": "CENTER",
       "textPosition": "CENTER"
     }

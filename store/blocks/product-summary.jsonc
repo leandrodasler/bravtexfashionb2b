@@ -127,7 +127,7 @@
 
   "add-to-cart-button#product-summary-buy-button": {
     "props": {
-      "text": "Buy",
+      "text": "Comprar",
       "addToCartFeedback": "customEvent",
       "customPixelEventId": "add-to-cart-button"
     }
@@ -135,7 +135,7 @@
 
   "add-to-list-btn": {
     "props": {
-      "text": "Add to Cart"
+      "text": "Adicionar ao carrinho"
     }
   },
   "product-summary-brand": {

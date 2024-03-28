@@ -28,7 +28,7 @@
   },
   "rich-text#alsoViewTitle": {
     "props": {
-      "text": "### Related Products",
+      "text": "### Produtos Relacionados",
       "blockClass": "alsoView"
     }
   },

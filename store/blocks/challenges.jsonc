@@ -43,7 +43,7 @@
   "rich-text#loading-content": {
     "props": {
       "blockClass": "loading-content-overlay",
-      "text": "Loading...",
+      "text": "Carregando...",
       "font": "t-small",
       "textColor": "c-on-base--inverted",
       "textPosition": "CENTER"
@@ -76,7 +76,7 @@
   },
   "link#manage-organization": {
     "props": {
-      "label": "My Organization",
+      "label": "Minha Organização",
       "href": "#",
       "blockClass": ["resellerLink", "manage-organization-link"]
     }

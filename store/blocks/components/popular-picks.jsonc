@@ -22,7 +22,7 @@
   },
   "rich-text#popularTitle": {
     "props": {
-      "text": "### Popular Products",
+      "text": "### Produtos populares",
       "blockClass": "trendingTitle"
     }
   },

@@ -64,7 +64,7 @@
 
   "rich-text#title--trending": {
     "props": {
-      "text": "## Top Sales",
+      "text": "## Mais Vendidos",
       "blockClass": "title"
     }
   }

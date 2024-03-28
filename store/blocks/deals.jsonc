@@ -65,7 +65,7 @@
 
   "rich-text#title--deals": {
     "props": {
-      "text": "## Recommended for you",
+      "text": "## Recomendado para você",
       "blockClass": "title"
     }
   }

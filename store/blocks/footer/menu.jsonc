@@ -10,8 +10,8 @@
             "type": "internal",
             "href": "/terms",
             "noFollow": false,
-            "tagTitle": "Terms of Use",
-            "text": "Terms of Use"
+            "tagTitle": "Termos de Uso",
+            "text": "Termos de Uso"
           }
         },
         {
@@ -21,8 +21,8 @@
             "type": "internal",
             "href": "/privacy-policy",
             "noFollow": false,
-            "tagTitle": "Privacy Policy",
-            "text": "Privacy Policy"
+            "tagTitle": "Política de Privacidade",
+            "text": "Política de Privacidade"
           }
         },
         {
@@ -32,8 +32,8 @@
             "type": "internal",
             "href": "/cookies-policy",
             "noFollow": false,
-            "tagTitle": "Cookie Policy",
-            "text": "Cookie Policy"
+            "tagTitle": "Política de Cookies",
+            "text": "Política de Cookies"
           }
         }
       ]
@@ -51,8 +51,8 @@
             "type": "internal",
             "href": "/who-we-are",
             "noFollow": false,
-            "tagTitle": "Who We Are",
-            "text": "Who We Are"
+            "tagTitle": "Quem Somos",
+            "text": "Quem Somos"
           }
         },
         {
@@ -62,8 +62,8 @@
             "type": "internal",
             "href": "/stores",
             "noFollow": false,
-            "tagTitle": "Our Stores",
-            "text": "Our Stores"
+            "tagTitle": "Nossas Lojas",
+            "text": "Nossas Lojas"
           }
         },
         {
@@ -73,8 +73,8 @@
             "type": "internal",
             "href": "/papers",
             "noFollow": false,
-            "tagTitle": "Brochures",
-            "text": "Brochures"
+            "tagTitle": "Folhetos",
+            "text": "Folhetos"
           }
         }
       ]
@@ -101,10 +101,10 @@
           "highlight": false,
           "itemProps": {
             "type": "external",
-            "href": "mailto:titantools.b2b@vtex.com.br",
+            "href": "mailto:fashion.b2b@vtex.com.br",
             "noFollow": false,
-            "tagTitle": "titantools.b2b@vtex.com.br",
-            "text": "titantools.b2b@vtex.com.br"
+            "tagTitle": "fashion.b2b@vtex.com.br",
+            "text": "fashion.b2b@vtex.com.br"
           }
         },
         {
@@ -115,7 +115,7 @@
             // "href": "/papers",
             // "noFollow": false,
             // "tagTitle": "Brochures",
-            "text": "Monday to Friday from 08:00 to 22:00."
+            "text": "Segunda a sexta das 08h às 22h."
           }
         },
         {
@@ -126,7 +126,7 @@
             // "href": "/papers",
             // "noFollow": false,
             // "tagTitle": "Brochures",
-            "text": "Saturdays from 08:00 to 20:00."
+            "text": "Sábados das 08h às 20h."
           }
         }
       ]

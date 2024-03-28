@@ -95,7 +95,7 @@
   "rich-text#textarea-disclosure-trigger-heading": {
     "props": {
       "blockClass": ["description", "disclosure-trigger-heading-quickorder"],
-      "text": "<span>Copy/Paste SKUs</span>",
+      "text": "<span>Copiar/Colar SKUs</span>",
       "font": "t-heading-4"
     }
   },
@@ -126,7 +126,7 @@
   "rich-text#upload-disclosure-trigger-heading": {
     "props": {
       "blockClass": ["description", "disclosure-trigger-heading-quickorder"],
-      "text": "<span>Submit a Spreadsheet</span>",
+      "text": "<span>Enviar uma planilha</span>",
       "font": "t-heading-4"
     }
   },
@@ -157,7 +157,7 @@
   "rich-text#autocomplete-disclosure-trigger-heading": {
     "props": {
       "blockClass": ["description", "disclosure-trigger-heading-quickorder"],
-      "text": "<span>One by One</span>",
+      "text": "<span>Um por Um</span>",
       "font": "t-heading-4"
     }
   },
@@ -188,7 +188,7 @@
   "rich-text#quickCategories-disclosure-trigger-heading": {
     "props": {
       "blockClass": ["description", "disclosure-trigger-heading-quickorder"],
-      "text": "<span>Categories</span>",
+      "text": "<span>Categorias</span>",
       "font": "t-heading-4"
     }
   },
@@ -217,13 +217,13 @@
   },
   "rich-text#title": {
     "props": {
-      "text": "### Quickorder",
+      "text": "### Pedido Rápido",
       "blockClass": "titleQuickorder"
     }
   },
   "rich-text#quickorder-subtitle": {
     "props": {
-      "text": "<span>Choose input methods to order your pre-selected items faster and save time.</span>",
+      "text": "<span>Escolha métodos de entrada para solicitar seus itens pré-selecionados com mais rapidez e economizar tempo.</span>",
       "blockClass": "subtitleQuickorder"
     }
   },
@@ -252,8 +252,8 @@
     "props": {
       "componentOnly": false,
       // "text": "Upload",
-      "description": "Upload spreadsheet with two columns (SKU, quantity) for bulk order",
-      "downloadText": "Click here to download a spreadsheet template"
+      "description": "Carregar planilha com duas colunas (SKU, quantidade) para realizar um pedido em massa",
+      "downloadText": "Clique aqui para baixar um modelo de planilha"
     }
   },
 
@@ -284,7 +284,7 @@
     "props": {
       "componentOnly": false,
       // "text": "Categories",
-      "description": "Add products directly from your categories"
+      "description": "Adicione produtos diretamente de suas categorias"
     }
   }
 }

@@ -103,7 +103,7 @@
   },
   "rich-text#shopByTitle": {
     "props": {
-      "text": "### Shop by Categories",
+      "text": "### Comprar por Categorias",
       "textPosition": "CENTER",
       "blockClass": "shopByCategoryTitle"
     }
@@ -144,7 +144,7 @@
   },
   "rich-text#last-orders-title": {
     "props": {
-      "text": "### Last Orders [VIEW ALL](/account#/orders-history)",
+      "text": "### Últimos pedidos [VER TODOS](/account#/orders-history)",
       "textPosition": "CENTER",
       "blockClass": "shopByCategoryTitle"
     }

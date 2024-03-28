@@ -81,25 +81,25 @@
   },
   "rich-text#footer-policy": {
     "props": {
-      "text": "Policies",
+      "text": "Políticas",
       "blockClass": "footerMenuTitle"
     }
   },
   "rich-text#footer-institutional": {
     "props": {
-      "text": "Institutional",
+      "text": "Institucional",
       "blockClass": "footerMenuTitle"
     }
   },
   "rich-text#footer-help": {
     "props": {
-      "text": "Help and Support",
+      "text": "Ajuda e Suporte",
       "blockClass": "footerMenuTitle"
     }
   },
   "rich-text#social-media": {
     "props": {
-      "text": "Social Media",
+      "text": "Redes Sociais",
       "blockClass": "footerMenuTitle"
     }
   },
@@ -125,7 +125,7 @@
   },
   "rich-text#rights": {
     "props": {
-      "text": "Titan Tools B2B 2023 @ All rights reserved",
+      "text": "VTEX Fashion B2B 2024 @ Todos os direitos reservados",
       "blockClass": "footerRights"
     }
   },

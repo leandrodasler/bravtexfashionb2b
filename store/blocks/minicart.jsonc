@@ -126,7 +126,7 @@
   },
   "link#quote": {
     "props": {
-      "label": "Create quote",
+      "label": "Criar cotação",
       "displayMode": "button",
       "blockClass": ["vtex-button", "order-quote"],
       "href": "/b2b-quotes/create"
@@ -181,7 +181,7 @@
 
   "rich-text#minicart-default-empty-state": {
     "props": {
-      "text": "Cart is empty."
+      "text": "Seu carrinho está vazio."
     }
   }
 }

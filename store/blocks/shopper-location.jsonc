@@ -29,7 +29,7 @@
   },
   "rich-text#address-header": {
     "props": {
-      "text": "### Change Location"
+      "text": "### Alterar Localização"
     }
   },
   "modal-content#address": {

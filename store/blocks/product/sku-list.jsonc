@@ -112,7 +112,7 @@
   "rich-text#unit-price": {
     "props": {
       // "width": "50%",
-      "text": "**Unit Price**",
+      "text": "**Preço Unitário**",
       "blockClass": "skuList",
       "textPosition": "CENTER"
     }
@@ -121,7 +121,7 @@
   "rich-text#price-by-quantity": {
     "props": {
       // "width": "50%",
-      "text": "**Unit Price x Quantity**",
+      "text": "**Preço Unitário x Quantidade**",
       "blockClass": "skuList",
       "textPosition": "CENTER"
     }
@@ -129,7 +129,7 @@
 
   "rich-text#qty": {
     "props": {
-      "text": "**Quantity**",
+      "text": "**Quantidade**",
       "blockClass": "skuList",
       "width": "25%",
       "textPosition": "CENTER"
@@ -138,7 +138,7 @@
 
   "rich-text#qty-price-by-quantity": {
     "props": {
-      "text": "**Quantity**",
+      "text": "**Quantidade**",
       "blockClass": "skuList",
       "width": "15%",
       "textPosition": "CENTER"
@@ -147,7 +147,7 @@
 
   "rich-text#inventory": {
     "props": {
-      "text": "**Stock**",
+      "text": "**Estoque**",
       "blockClass": "skuList",
       "width": "10%",
       "textPosition": "CENTER"

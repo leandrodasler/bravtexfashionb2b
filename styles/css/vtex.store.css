@@ -1,6 +1,6 @@
 :local(:root) {
   /* Colors */
-  --black-dark: #142032;
+  --black-dark: #007f7f;
   --fresh-blue: #4a596b;
   --fresh-blue-dark: #0067c7;
   --fresh-blue-lightest: #f3f9ff;
@@ -16,7 +16,7 @@
   --lines-darker: #a3afbc;
   --lines-light: #dee7ef;
   --serious-blue-dark: var(--fresh-blue);
-  --serious-black: #3c4043;
+  --serious-black: #142032;
   --serious-orange: #ff7d30;
   --base: #fff;
   --near-white: #f8f7fc;

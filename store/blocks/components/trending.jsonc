@@ -22,7 +22,7 @@
   },
   "rich-text#trendingTitle": {
     "props": {
-      "text": "### Recommended for You",
+      "text": "### Recomendado para Você",
       "blockClass": "trendingTitle"
     }
   },

@@ -1,8 +1,8 @@
 {
-  "vendor": "vtextitantools",
-  "name": "b2bstore",
-  "version": "5.0.7",
-  "defaultLocale": "en-US",
+  "vendor": "bravtexfashionb2b",
+  "name": "titan-tools-theme",
+  "version": "0.0.0",
+  "defaultLocale": "pt-BR",
   "builders": {
     "assets": "0.x",
     "styles": "2.x",

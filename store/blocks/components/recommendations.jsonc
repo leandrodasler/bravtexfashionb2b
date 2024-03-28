@@ -37,7 +37,7 @@
   },
   "rich-text#recommendationsTitle": {
     "props": {
-      "text": "### Recommended for You",
+      "text": "### Recomendado para Você",
       "textPosition": "CENTER",
       "blockClass": "popularTitle"
     }

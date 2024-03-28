@@ -35,7 +35,7 @@
   // },
   "link#reseller": {
     "props": {
-      "label": "Organization Request",
+      "label": "Cadastro de Organização",
       "href": "/organization-request",
       "blockClass": "resellerLink"
     }
@@ -55,7 +55,7 @@
   },
   "rich-text#quickTitle": {
     "props": {
-      "text": "Quick Order",
+      "text": "Pedido Rápido",
       "blockClass": "quickTitle"
     }
   },
@@ -75,7 +75,7 @@
   },
   "rich-text#explore": {
     "props": {
-      "text": "## Explore",
+      "text": "## Explorar",
       "blockClass": "menuTitle"
     }
   },

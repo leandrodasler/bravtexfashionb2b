@@ -124,7 +124,7 @@
   "rich-text#questions": {
     "props": {
       "blockClass": "questions",
-      "text": "##### Have any questions?\nReach out to our support\n[View support channels](/help-center)"
+      "text": "##### Tem alguma dúvida?\nEntre em contato com nosso suporte\n[Ver canais de suporte](/help-center)"
     }
   },
   "link#help-center": {
@@ -139,7 +139,7 @@
   "rich-text#product-price": {
     "props": {
       "blockClass": ["product-price-message"],
-      "text": "Login or register to view prices"
+      "text": "Faça login ou cadastre-se para visualizar preços"
     }
   },
   "loading-content#product-price": {

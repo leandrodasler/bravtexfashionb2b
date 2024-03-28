@@ -60,7 +60,7 @@
   "rich-text#description-disclosure-trigger-heading": {
     "props": {
       "blockClass": ["description", "disclosure-trigger-heading"],
-      "text": "<span>Product Description</span>",
+      "text": "<span>Descrição do Produto</span>",
       "font": "t-heading-5"
     }
   },
