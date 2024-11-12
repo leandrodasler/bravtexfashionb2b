@@ -40,7 +40,7 @@
 .wrapper--quickTitle {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
   color: var(--b2b-header-blue-medium);
   background-color: var(--black-dark);
   border-radius: 8px;
