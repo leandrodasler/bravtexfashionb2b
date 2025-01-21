@@ -206,7 +206,7 @@
   "rich-text#headStripe6": {
     "props": {
       "blockClass": "HeaderStripeText",
-      "text": "[Salvar carrinhos](/checkout-b2b/saved-carts)"
+      "text": "[Carrinhos salvos](/checkout-b2b/saved-carts)"
     }
   },
 
