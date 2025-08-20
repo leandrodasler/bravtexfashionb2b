@@ -36,7 +36,7 @@
   "link#reseller": {
     "props": {
       "label": "Cadastro de Organização",
-      "href": "/organization-request",
+      "href": "/organization-request-cnpj",
       "blockClass": "resellerLink"
     }
   },
